@@ -14,7 +14,6 @@ export default function About() {
         </p>
         <p>I am open to offers and work.</p>
       </div>
-
       <img className={css.aboutPhoto} src={myPhoto} alt="My_photo" width="260" height="300" />
     </div>
   );
