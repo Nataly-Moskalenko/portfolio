@@ -1,0 +1,14 @@
+.about {
+  margin-top: 80px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.aboutPhoto {
+  border-radius: 50%;
+}
+
+.aboutDescription {
+  width: 600px;
+}

@@ -8,7 +8,7 @@ export default function Layout() {
     <div>
       <nav className={css.nav}>
         <NavLink className={(navData) => (navData.isActive ? css.active : css.link)} to="/">
-          Home
+          About me
         </NavLink>
         <NavLink className={(navData) => (navData.isActive ? css.active : css.link)} to="/skills">
           Skills
@@ -17,7 +17,7 @@ export default function Layout() {
           Projects
         </NavLink>
         <NavLink className={(navData) => (navData.isActive ? css.active : css.link)} to="/contacts">
-          Contacts
+          Contact me
         </NavLink>
       </nav>
       <main>

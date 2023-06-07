@@ -4,7 +4,7 @@ import Layout from './components/Layout/Layout';
 
 import { lazy } from 'react';
 
-const Home = lazy(() => import('./pages/Home/Home'));
+const About = lazy(() => import('./pages/About/About'));
 const Skills = lazy(() => import('./pages/Skills/Skills'));
 const Projects = lazy(() => import('./pages/Projects/Projects'));
 const Contacts = lazy(() => import('./pages/Contacts/Contacts'));
@@ -14,7 +14,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contacts />} />
