@@ -6,6 +6,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 60px;
 }
 
 .skills {
@@ -18,24 +19,30 @@
   margin-bottom: 60px;
 }
 
-.skillsButton {
+/* .skillsButton {
   margin-left: 20px;
   margin-top: 60px;
   padding: 8px 12px;
   border-radius: 8px;
   border: 2px solid #28048d;
   cursor: pointer;
-}
+} */
 
 .skillsLink {
-  text-decoration: none;
+  /* text-decoration: none; */
+  margin-left: 20px;
+  /* margin-top: 60px; */
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px; 
+  font-size: 24px;
+  line-height: 28px; 
   color: #28048d;
 }
 
 .skillsButton:hover,
 .skillsButton:focus {
   background-color: #e4def5;
+}
+
+.skillsItem:not(:last-child) {
+  margin-bottom: 12px;
 }

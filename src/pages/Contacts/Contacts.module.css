@@ -13,12 +13,27 @@
   align-items: flex-end;
   /* justify-content: center; */
   color: #28048d;
-  text-align: center;
+  /* text-align: center; */
   /* text-decoration: none; */
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
+
 .contactsTitle {
   margin-bottom: 60px;
+}
+.contactsList {
+  list-style: none;
+  padding: 0;
+}
+
+.contactsItem:first-child {
+display: flex;
+gap: 12px;
+align-items: flex-end;
+}
+
+.contactsItem:not(:last-child) {
+  margin-bottom: 12px;
 }

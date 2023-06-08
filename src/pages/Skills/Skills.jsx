@@ -7,24 +7,24 @@ export default function Skills() {
         <div>
           <h1 className={css.skillsTitle}>Tech Skills</h1>
           <ul>
-            <li>HTML</li>
-            <li>CSS/Sass</li>
-            <li>Responsive Design</li>
-            <li>Javascript</li>
-            <li>React.js</li>
+            <li className={css.skillsItem}>HTML</li>
+            <li className={css.skillsItem}>CSS/SASS</li>
+            <li className={css.skillsItem}>Responsive Design</li>
+            <li className={css.skillsItem}>Javascript</li>
+            <li className={css.skillsItem}>React.js</li>
           </ul>
         </div>
         <div>
           <h1 className={css.skillsTitle}>Soft Skills</h1>
           <ul>
-            <li>Team work</li>
-            <li>Communication</li>
-            <li>Time management</li>
-            <li>Analytical thinking</li>
+            <li className={css.skillsItem}>Team work</li>
+            <li className={css.skillsItem}>Communication</li>
+            <li className={css.skillsItem}>Time management</li>
+            <li className={css.skillsItem}>Analytical thinking</li>
           </ul>
         </div>
       </div>
-      <button className={css.skillsButton}>
+      {/* <button className={css.skillsButton}> */}
         <a
           className={css.skillsLink}
           href="https://drive.google.com/file/d/11YSRGboep4f1LNCS6N98BPAlrWmBYYa2/view"
@@ -33,7 +33,7 @@ export default function Skills() {
         >
           Go to my CV
         </a>
-      </button>
+      {/* </button> */}
     </div>
   );
 }

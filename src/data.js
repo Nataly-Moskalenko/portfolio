@@ -9,7 +9,7 @@ export const projects = [
     title: 'WebStudio',
     subtitle: 'HTML, SASS, BEM, JavaScript, Mobile First Design',
     description:
-      'Individual project - two page website with responsive layout, burger menu, modal windows.',
+      'Individual project - two page website with responsive layout, burger menu, modal windows, using SASS, BEM, Mobile First Design.',
     image: photoWebStudio,
     link: 'https://nataly-moskalenko.github.io/goit-markup-hw-08/',
   },
@@ -25,17 +25,18 @@ export const projects = [
   {
     id: '3',
     title: 'Image Search',
-    subtitle: 'React',
+    subtitle: 'React, React-icons, Axios, React-toastify',
     description:
       'Individual project - development of the interface part of the program for searching and viewing images by keyword, using a public API.',
     image: photoImageSearch,
-    link: 'https://nataly-moskalenko.github.io/goit-react-hw-03-image-finder/',
+    link: 'https://nataly-moskalenko.github.io/goit-react-hw-04-images/',
   },
   {
     id: '4',
     title: 'Phonebook',
-    subtitle: 'React',
-    description: 'Individual project - ',
+    subtitle: 'React, React-redux, React-router-dom, Axios',
+    description:
+      'Individual project - Phonebook developed on React using Redux, private routes and public routes. This application enables users to save their phone contacts information.',
     image: photoPhonebook,
     link: 'https://nataly-moskalenko.github.io/goit-react-hw-08-phonebook/',
   },
