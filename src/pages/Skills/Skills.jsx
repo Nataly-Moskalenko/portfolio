@@ -25,14 +25,14 @@ export default function Skills() {
         </div>
       </div>
       {/* <button className={css.skillsButton}> */}
-        <a
-          className={css.skillsLink}
-          href="https://drive.google.com/file/d/11YSRGboep4f1LNCS6N98BPAlrWmBYYa2/view"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go to my CV
-        </a>
+      <a
+        className={css.skillsLink}
+        href="https://drive.google.com/file/d/1BkXYQ0cije63Bkh6EaXp4tL3DApZgDkx/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Go to my CV
+      </a>
       {/* </button> */}
     </div>
   );
