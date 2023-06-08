@@ -2,8 +2,8 @@ import css from './Skills.module.css';
 
 export default function Skills() {
   return (
-    <div>
-      <div className={css.skills}>
+    <div className={css.skills}>
+      <div className={css.skillsDescription}>
         <div>
           <h1>Tech Skills</h1>
           <ul>
@@ -23,7 +23,15 @@ export default function Skills() {
           </ul>
         </div>
       </div>
-      <button>My resume</button>
+      <button className={css.skillsButton}>
+        <a
+          href="https://drive.google.com/file/d/11YSRGboep4f1LNCS6N98BPAlrWmBYYa2/view"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My resume
+        </a>
+      </button>
     </div>
   );
 }
