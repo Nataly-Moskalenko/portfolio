@@ -1,5 +1,5 @@
 .about {
-  margin-top: 80px;
+  padding-top: 80px;
   display: flex;
   gap: 80px;
   justify-content: center;
@@ -11,4 +11,12 @@
 
 .aboutDescription {
   width: 600px;
+  color: #28048d;  
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.aboutTitle {
+  margin-bottom: 40px;
 }

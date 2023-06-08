@@ -5,25 +5,26 @@ import css from './Projects.module.css';
 
 export default function Projects() {
   const settings = {
-    dots: true,   
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,    
+    autoplay: true,
+    // pauseOnHover: false,
   };
   return (
     <div className={css.projects}>
       <h1 className={css.projectsTitle}>My Projects</h1>
-      <ul>
+      <div>
         <Slider {...settings}>
           {projects.map((project) => (
-            <li key={project.id}>
+            <div key={project.id}>
               <ProjectCard project={project} />
-            </li>
+            </div>
           ))}
         </Slider>
-      </ul>
+      </div>
     </div>
   );
 }

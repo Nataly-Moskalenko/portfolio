@@ -1,18 +1,41 @@
 .skillsDescription {
-  margin-top: 80px;
   display: flex;
   gap: 80px;
   justify-content: space-between;
+  color: #28048d;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .skills {
+  padding-top: 80px;
   width: 520px;
   margin: 0 auto;
 }
 
+.skillsTitle {
+  margin-bottom: 60px;
+}
+
 .skillsButton {
-  /* display: block;
-  margin: 40px auto; */
   margin-left: 20px;
-  margin-top: 80px;
+  margin-top: 60px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 2px solid #28048d;
+  cursor: pointer;
+}
+
+.skillsLink {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px; 
+  color: #28048d;
+}
+
+.skillsButton:hover,
+.skillsButton:focus {
+  background-color: #e4def5;
 }

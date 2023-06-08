@@ -21,11 +21,11 @@
 .link {
   text-decoration: none;
   /* font-family: 'Montserrat'; */
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #373737;
+  color: #28048d; 
 }
 
 .loader {

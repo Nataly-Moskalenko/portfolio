@@ -1,4 +1,19 @@
 .contacts {
-  /* margin: 80px auto; */
+  padding-top: 80px;
+  color: #28048d; 
+  text-align: center; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.contactsLink {
+  color: #28048d; 
   text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.contactsTitle {
+  margin-bottom: 60px;
 }

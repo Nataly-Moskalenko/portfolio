@@ -1,17 +1,15 @@
+import css from './ProjectCard.module.css';
 export default function ProjectCard({ project }) {
   return (
-    <div>
-      <h1>{project.title}</h1>
+    <div className={css.project}>
+      <img className={css.projectImage} src={project.image} alt={project.title} width="400" height="200"/>
+      <h2>{project.title}</h2>
       <p>{project.subtitle}</p>
       <p>{project.description}</p>
-      {/* <img src={project.image} alt={project.title} width="" height="" /> */}
-      <button>
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
+      <button className={css.projectButton}>
+        <a className={css.projectLink} href={project.link} target="_blank" rel="noopener noreferrer">
           Go to project {project.title}
-        </a>
-        {/* <Link to={{ pathname: `{project.link}` }} target="_blank">
-          My link
-        </Link> */}
+        </a>        
       </button>
     </div>
   );
