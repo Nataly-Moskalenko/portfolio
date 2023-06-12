@@ -2,6 +2,7 @@ import photoWebStudio from './images/photo_WebStudio.jpg';
 import photoIceCream from './images/photo_IceCream.jpg';
 import photoImageSearch from './images/photo_ImageSearch.jpg';
 import photoPhonebook from './images/photo_Phonebook1.jpg';
+import photoMovies from './images/photo_Movies.jpg';
 
 export const projects = [
   {
@@ -24,10 +25,10 @@ export const projects = [
   },
   {
     id: '3',
-    title: 'Image Search',
+    title: 'Image Search App',
     subtitle: 'React, React-icons, Axios, React-toastify',
     description:
-      'Individual project - development of the interface part of the program for searching and viewing images by keyword, using a public API.',
+      'Individual project - Image Search App - development of the interface part of the program for searching and viewing images by keyword, using a public API.',
     image: photoImageSearch,
     link: 'https://nataly-moskalenko.github.io/goit-react-hw-04-images/',
   },
@@ -39,5 +40,14 @@ export const projects = [
       'Individual project - Phonebook developed on React using Redux, private routes and public routes. This application enables users to save their phone contacts information.',
     image: photoPhonebook,
     link: 'https://nataly-moskalenko.github.io/goit-react-hw-08-phonebook/',
+  },
+  {
+    id: '5',
+    title: 'Movie Search App',
+    subtitle: 'React, React-router-dom, Axios, React-toastify',
+    description:
+      'Individual project - Movie Search App on React using React-router-dom. This App enables users to know about today trends movies and to find movies by search query.',
+    image: photoMovies,
+    link: 'https://nataly-moskalenko.github.io/goit-react-hw-05-movies/',
   },
 ];
