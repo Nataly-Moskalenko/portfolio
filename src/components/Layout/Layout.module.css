@@ -1,8 +1,14 @@
-.nav {
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
   margin: 0 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #28048d;
+}
+
+.nav {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -10,7 +16,7 @@
 
 .active {
   font-weight: 700;
-  color: #28048d; 
+  color: #28048d;
   text-decoration: none;
   /* font-family: 'Montserrat'; */
   font-size: 20px;
@@ -25,7 +31,7 @@
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #28048d; 
+  color: #28048d;
 }
 
 .loader {
@@ -54,4 +60,25 @@
   100% {
     transform: rotate(359deg);
   }
+}
+
+.themeButtonDark {
+  /* display: block; */
+  background-color: white;
+  color: #28048d;
+  border: 1px solid #28048d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.themeButtonLight {
+  background-color: rgb(12, 7, 33);
+  color: #28048d;
+  border: 1px solid #28048d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
 }

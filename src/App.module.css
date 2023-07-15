@@ -1,0 +1,8 @@
+.dark {
+  height: 100vh;
+  background-color: rgb(12, 7, 33);  
+}
+
+.light {
+  background-color: white; 
+}
