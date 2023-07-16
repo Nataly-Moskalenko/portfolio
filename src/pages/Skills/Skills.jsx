@@ -12,6 +12,7 @@ export default function Skills() {
             <li className={css.skillsItem}>Javascript</li>
             <li className={css.skillsItem}>React</li>
             <li className={css.skillsItem}>Node.js</li>
+            <li className={css.skillsItem}>English - Intermediate</li>
           </ul>
         </div>
         <div>
@@ -27,7 +28,7 @@ export default function Skills() {
       </div>
       <a
         className={css.skillsLink}
-        href="https://drive.google.com/file/d/11YSRGboep4f1LNCS6N98BPAlrWmBYYa2/view?usp=sharing"
+        href="https://drive.google.com/file/d/1LfzXFzsvRGp94j1bGsG-2lE2fdAWn9fC/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
