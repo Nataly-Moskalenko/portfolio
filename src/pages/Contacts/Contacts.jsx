@@ -1,8 +1,5 @@
 import css from './Contacts.module.css';
-import { FaTelegramPlane } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaTelegramPlane, FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 export default function Contacts() {
   return (

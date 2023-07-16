@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className={css.about}>
       <div className={css.aboutDescription}>
-        <h1 className={css.aboutTitle}>Hi! I am Nataliia!</h1>
-        <p>I am a Junior Front End developer with knowledge of HTML, CSS, JavaScript, React.</p>
+        <p className={css.aboutTitle}>Hi! I am Nataliia!</p>
+        <p>I am a Full Stack Developer with knowledge of HTML, CSS, JavaScript, React, Node.js.</p>
         <p>I have an analytical thinking, which allows me to effectively solve complex tasks.</p>
         <p>
           I know how to communicate with different people and I know how to work effectively both

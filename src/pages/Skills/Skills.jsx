@@ -9,9 +9,9 @@ export default function Skills() {
           <ul>
             <li className={css.skillsItem}>HTML</li>
             <li className={css.skillsItem}>CSS/SASS</li>
-            <li className={css.skillsItem}>Responsive Design</li>
             <li className={css.skillsItem}>Javascript</li>
-            <li className={css.skillsItem}>React.js</li>
+            <li className={css.skillsItem}>React</li>
+            <li className={css.skillsItem}>Node.js</li>
           </ul>
         </div>
         <div>
@@ -21,10 +21,10 @@ export default function Skills() {
             <li className={css.skillsItem}>Communication</li>
             <li className={css.skillsItem}>Time management</li>
             <li className={css.skillsItem}>Analytical thinking</li>
+            <li className={css.skillsItem}>Attention to details</li>
           </ul>
         </div>
       </div>
-      {/* <button className={css.skillsButton}> */}
       <a
         className={css.skillsLink}
         href="https://drive.google.com/file/d/11YSRGboep4f1LNCS6N98BPAlrWmBYYa2/view?usp=sharing"
@@ -33,7 +33,6 @@ export default function Skills() {
       >
         Go to my CV
       </a>
-      {/* </button> */}
     </div>
   );
 }

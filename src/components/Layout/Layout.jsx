@@ -3,6 +3,7 @@ import { Suspense, useContext } from 'react';
 // import { ImSpinner } from 'react-icons/im';
 import css from './Layout.module.css';
 import { ThemeContext } from '../../context/ThemeContext';
+import { FaSun, FaMoon } from 'react-icons/fa';
 
 export default function Layout() {
   const { toggle, toggleFunction } = useContext(ThemeContext);
@@ -29,8 +30,16 @@ export default function Layout() {
             Contact me
           </NavLink>
         </nav>
-        <button className={toggle? css.themeButtonLight : css.themeButtonDark} onClick={toggleFunction}>
-          {toggle ? ' To Light Theme' : 'To Dark Theme'}
+        <button
+          type="button"
+          className={toggle ? css.themeButtonLight : css.themeButtonDark}
+          onClick={toggleFunction}
+        >
+          {toggle ? (
+            <FaSun className={css.themeIcon} title="Switch to Light theme" />
+          ) : (
+            <FaMoon className={css.themeIcon} title="Switch to Dark theme" />
+          )}
         </button>
       </div>
       <main>
