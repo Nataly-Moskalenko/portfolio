@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li > button::before {
+  opacity: 0.5 !important;
+  color: #3b06cf !important;
+}
+
+li.slick-active > button::before {
+  opacity: 1 !important;
+  color: #3b06cf !important;
+}
