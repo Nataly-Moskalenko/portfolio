@@ -3,6 +3,7 @@ import photoIceCream from './images/photo_IceCream.jpg';
 import photoImageSearch from './images/photo_ImageSearch.jpg';
 import photoPhonebook from './images/photo_Phonebook1.jpg';
 import photoMovies from './images/photo_Movies.jpg';
+import photoSwagger from './images/photo_Swagger.jpg';
 
 export const projects = [
   {
@@ -49,5 +50,14 @@ export const projects = [
       'Individual project - Movie Search App on React using React-router-dom. This App enables users to know about today trends movies and to find movies by search query.',
     image: photoMovies,
     link: 'https://nataly-moskalenko.github.io/goit-react-hw-05-movies/',
+  },
+  {
+    id: '6',
+    title: 'Nodejs Rest Api',
+    subtitle: 'Nodejs, Express, Gravatar, Joi, Nodemailer, Swagger',
+    description:
+      'Individual project - Backend part of the Api with Swagger and Dockerfile which enables register users to save, add, update and other operations with their contacts.',
+    image: photoSwagger,
+    link: 'https://nodejs-rest-api-ry5x.onrender.com/api-docs',
   },
 ];
