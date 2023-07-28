@@ -4,6 +4,8 @@ import photoImageSearch from './images/photo_ImageSearch.jpg';
 import photoPhonebook from './images/photo_Phonebook1.jpg';
 import photoMovies from './images/photo_Movies.jpg';
 import photoSwagger from './images/photo_Swagger.jpg';
+import photoTweets from './images/photo_TweetCards.jpg';
+import photoNews from './images/photo_News.jpg';
 
 export const projects = [
   {
@@ -53,6 +55,24 @@ export const projects = [
   },
   {
     id: '6',
+    title: 'Tweet Cards App',
+    subtitle: 'React, React-router-dom, Axios, React-icons, Localstorage, Pagination',
+    description:
+      "Individual project - Tweet Cards App which enables users to view a list of tweets with the ability to filter by the user's subscription status.",
+    image: photoTweets,
+    link: 'https://nataly-moskalenko.github.io/test-task-tweet-cards/',
+  },
+  {
+    id: '7',
+    title: 'News Project',
+    subtitle: 'JavaScript, Date-fns, Flatpickr, Notiflix, Vanilla-js-accordion',
+    description:
+      'Team project - News Project which enables users to read, filter and save favorite news, see readed news. Role: Scrum Master, Developer.',
+    image: photoNews,
+    link: 'https://tkachenko01001.github.io/news-project/',
+  },
+  {
+    id: '8',
     title: 'Nodejs Rest Api',
     subtitle: 'Nodejs, Express, Gravatar, Joi, Nodemailer, Swagger',
     description:
