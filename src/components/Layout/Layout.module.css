@@ -59,7 +59,7 @@
   }
 }
 
-.themeButtonDark {
+.themeButtonLight {
   background-color: rgb(229, 249, 252);
   color: #3b06cf;
   outline: none;
@@ -68,7 +68,7 @@
   align-self: center;
 }
 
-.themeButtonLight {
+.themeButtonDark {
   background-color: rgb(12, 7, 33);
   color: #3b06cf;
   outline: none;

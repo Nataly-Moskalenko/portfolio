@@ -1,12 +1,11 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import { Suspense, useContext } from 'react';
-// import { ImSpinner } from 'react-icons/im';
 import css from './Layout.module.css';
 import { ThemeContext } from '../../context/ThemeContext';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 export default function Layout() {
-  const { toggle, toggleFunction } = useContext(ThemeContext);
+  const { theme, checkTheme } = useContext(ThemeContext);
   return (
     <div>
       <div className={css.header}>
@@ -32,13 +31,13 @@ export default function Layout() {
         </nav>
         <button
           type="button"
-          className={toggle ? css.themeButtonLight : css.themeButtonDark}
-          onClick={toggleFunction}
+          className={theme === 'light' ? css.themeButtonLight : css.themeButtonDark}
+          onClick={checkTheme}
         >
-          {toggle ? (
-            <FaSun className={css.themeIcon} title="Switch to Light theme" />
+          {theme === 'light' ? (
+            <FaSun className={css.themeIcon} title="Light Theme" />
           ) : (
-            <FaMoon className={css.themeIcon} title="Switch to Dark theme" />
+            <FaMoon className={css.themeIcon} title="Dark Theme" />
           )}
         </button>
       </div>
@@ -47,7 +46,6 @@ export default function Layout() {
           fallback={
             <div className={css.loader}>
               <span className={css.loaderSpan}>Loading...</span>
-              {/* <ImSpinner className={css.loaderIcon} /> */}
             </div>
           }
         >

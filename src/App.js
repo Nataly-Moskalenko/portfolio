@@ -11,10 +11,10 @@ const Projects = lazy(() => import('./pages/Projects/Projects'));
 const Contacts = lazy(() => import('./pages/Contacts/Contacts'));
 
 export default function App() {
-  const { toggle } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   return (
-    <div className={toggle ? css.dark : css.light}>
+    <div className={theme === 'light' ? css.light : css.dark}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<About />} />
