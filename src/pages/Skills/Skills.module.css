@@ -34,3 +34,7 @@
 .skillsItem:not(:last-child) {
   margin-bottom: 12px;
 }
+
+.skillsDescr { 
+  margin-bottom: 20px;
+}

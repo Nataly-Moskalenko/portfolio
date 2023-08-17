@@ -26,14 +26,26 @@ export default function Skills() {
           </ul>
         </div>
       </div>
-      <a
-        className={css.skillsLink}
-        href="https://drive.google.com/file/d/1LfzXFzsvRGp94j1bGsG-2lE2fdAWn9fC/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Go to my CV
-      </a>
+      <div className={css.skillsDescr}>
+        <a
+          className={css.skillsLink}
+          href="https://drive.google.com/file/d/1LfzXFzsvRGp94j1bGsG-2lE2fdAWn9fC/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Go to my CV
+        </a>
+      </div>
+      <div>
+        <a
+          className={css.skillsLink}
+          href="https://drive.google.com/file/d/1KDjnfCKdie6Gc_Ek5IkA8n8rcJ7Wdxxe/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Go to my Sertificate
+        </a>
+      </div>
     </div>
   );
 }

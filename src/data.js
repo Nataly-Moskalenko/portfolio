@@ -6,6 +6,7 @@ import photoMovies from './images/photo_Movies.jpg';
 import photoSwagger from './images/photo_Swagger.jpg';
 import photoTweets from './images/photo_TweetCards.jpg';
 import photoNews from './images/photo_News.jpg';
+import photoTaskPro from './images/photo_TaskPro.jpg';
 
 export const projects = [
   {
@@ -74,10 +75,20 @@ export const projects = [
   {
     id: '8',
     title: 'Nodejs Rest Api',
-    subtitle: 'Nodejs, Express, Gravatar, Joi, Nodemailer, Swagger',
+    subtitle: 'Nodejs, Express, Gravatar, Joi, Nodemailer, Swagger-ui-express',
     description:
       'Individual project - Backend part of the Api with Swagger and Dockerfile which enables register users to save, add, update and other operations with their contacts.',
     image: photoSwagger,
     link: 'https://nodejs-rest-api-ry5x.onrender.com/api-docs',
+  },
+  {
+    id: '9',
+    title: 'Project Task Pro',
+    subtitle:
+      'React-redux, React-router-dom, React-day-picker, React-dropzone, Axios, Date-fns, Formik, Yup, Nodejs, Bcrypt, Cloudinary, Cross-env, Express, Joi, Jsonwebtoken, Mongoose, Nodemailer, Swagger-ui-express',
+    description:
+      'Team project - an online tool for managing your projects by creating boards, lists, and cards that help organize tasks and projects in a visual board format.',
+    image: photoTaskPro,
+    link: 'https://tkachenko01001.github.io/project-REACT_NODE/',
   },
 ];
