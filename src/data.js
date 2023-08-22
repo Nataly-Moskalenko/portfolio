@@ -7,6 +7,7 @@ import photoSwagger from './images/photo_Swagger.jpg';
 import photoTweets from './images/photo_TweetCards.jpg';
 import photoNews from './images/photo_News.jpg';
 import photoTaskPro from './images/photo_TaskPro.jpg';
+import photoCarpTravel from './images/photo_CarpTravel.jpg';
 
 export const projects = [
   {
@@ -83,12 +84,22 @@ export const projects = [
   },
   {
     id: '9',
-    title: 'Project Task Pro',
+    title: 'Task Pro',
     subtitle:
       'React-redux, React-router-dom, React-day-picker, React-dropzone, Axios, Date-fns, Formik, Yup, Nodejs, Bcrypt, Cloudinary, Cross-env, Express, Joi, Jsonwebtoken, Mongoose, Nodemailer, Swagger-ui-express',
     description:
       'Team project - an online tool for managing your projects by creating boards, lists, and cards that help organize tasks and projects in a visual board format.',
     image: photoTaskPro,
     link: 'https://tkachenko01001.github.io/project-REACT_NODE/',
+  },
+  {
+    id: '10',
+    title: 'Carpathians Travel',
+    subtitle:
+      'React, React-dom, Nextjs, React-scroll, React-hook-form, Swiper, Tailwindcss',
+    description:
+      'Individual project which offers you unforgettable and extraordinary trips to the most beautiful parts of the Carpathians: Hoverla, Yaremche, Zakarpattia, Vorokhta, Synevyr Lake, Bukovel.',
+    image: photoCarpTravel,
+    link: 'https://carpathians-travel.vercel.app/',
   },
 ];

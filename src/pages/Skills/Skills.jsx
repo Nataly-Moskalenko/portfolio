@@ -8,9 +8,12 @@ export default function Skills() {
           <h1 className={css.skillsTitle}>Tech Skills</h1>
           <ul>
             <li className={css.skillsItem}>HTML</li>
-            <li className={css.skillsItem}>CSS/SASS</li>
+            <li className={css.skillsItem}>CSS/SASS/BEM</li>
+            <li className={css.skillsItem}>Responsive/Adaptive Design</li>            
             <li className={css.skillsItem}>Javascript</li>
-            <li className={css.skillsItem}>React</li>
+            <li className={css.skillsItem}>React, React-redux, React-router, Hooks</li>            
+            <li className={css.skillsItem}>Nextjs</li>
+            <li className={css.skillsItem}>Tailwindcss</li>
             <li className={css.skillsItem}>Node.js</li>
             <li className={css.skillsItem}>English - Intermediate</li>
           </ul>
