@@ -1,20 +1,20 @@
 .contacts {
-  width: 360px;
-  padding-top: 80px;  
+  max-width: 320px;
+  padding: 80px 24px 24px;
   margin: 0 auto;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .contactsLink {
   display: flex;
   gap: 12px;
-  align-items: flex-end; 
-  color: #3b06cf;  
+  align-items: flex-end;
+  color: #3b06cf;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .contactsTitle {
@@ -26,11 +26,19 @@
 }
 
 .contactsItem:first-child {
-display: flex;
-gap: 12px;
-align-items: flex-end;
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
 }
 
 .contactsItem:not(:last-child) {
   margin-bottom: 12px;
+}
+
+@media screen and (min-width: 440px) {
+  .contacts,
+  .contactsLink {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }

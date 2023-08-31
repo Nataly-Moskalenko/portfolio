@@ -86,9 +86,9 @@ export const projects = [
     id: '9',
     title: 'Task Pro',
     subtitle:
-      'React-redux, React-router-dom, React-day-picker, React-dropzone, Axios, Date-fns, Formik, Yup, Nodejs, Bcrypt, Cloudinary, Cross-env, Express, Joi, Jsonwebtoken, Mongoose, Nodemailer, Swagger-ui-express',
+      'React-redux, React-router-dom, React-day-picker, React-dropzone, Date-fns, Formik, Yup, Nodejs, Cloudinary, Cross-env, Express, Joi, Jsonwebtoken, Mongoose, Swagger-ui-express',
     description:
-      'Team project - an online tool for managing your projects by creating boards, lists, and cards that help organize tasks and projects in a visual board format.',
+      'Team project - allows to create boards, lists, and cards that help organize tasks and projects in a visual board format.',
     image: photoTaskPro,
     link: 'https://tkachenko01001.github.io/project-REACT_NODE/',
   },

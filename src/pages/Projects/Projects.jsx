@@ -12,7 +12,27 @@ export default function Projects() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,    
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1080,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <div className={css.projects}>

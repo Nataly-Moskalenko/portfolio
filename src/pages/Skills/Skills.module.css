@@ -1,28 +1,24 @@
-.skillsDescription {
-  display: flex;
-  gap: 80px;
-  justify-content: space-between;  
+.skillsDescription { 
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 
 .skills {
-  padding-top: 40px;
-  width: 720px;
+  padding: 24px;
+  max-width: 340px;
   margin: 0 auto;
 }
 
 .skillsTitle {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.skillsLink { 
-  margin-left: 20px; 
+.skillsLink {   
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px; 
+  font-size: 20px;
+  line-height: 24px; 
   color: #3b06cf;
 }
 
@@ -32,9 +28,53 @@
 }
 
 .skillsItem:not(:last-child) {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 .skillsDescr { 
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
+
+@media screen and (min-width: 768px) {
+  .skillsDescription {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .skills {
+    padding-top: 40px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  .skillsTitle {
+    margin-bottom: 40px;
+  }
+  
+  .skillsLink { 
+    margin-left: 20px; 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px; 
+    color: #3b06cf;
+  }
+  
+  .skillsButton:hover,
+  .skillsButton:focus {
+    background-color: #e4def5;
+  }
+  
+  .skillsItem:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  
+  .skillsDescr { 
+    margin-bottom: 20px;
+  }
+}
+
