@@ -1,11 +1,15 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Suspense, useContext } from 'react';
+import { Suspense, useContext, useState } from 'react';
 import css from './Layout.module.css';
 import { ThemeContext } from '../../context/ThemeContext';
 import { FaSun, FaMoon } from 'react-icons/fa';
+import Modal from '../Modal/Modal';
 
 export default function Layout() {
   const { theme, checkTheme } = useContext(ThemeContext);
+  const [showModal, setShowModal] = useState(false);
+  const toggleModal = () => setShowModal(!showModal);
+
   return (
     <div>
       <div className={css.header}>
@@ -29,6 +33,10 @@ export default function Layout() {
             Contact me
           </NavLink>
         </nav>
+        <button type="button" className={css.menuButton} onClick={toggleModal}>
+          Menu
+        </button>
+        {showModal && <Modal onClick={toggleModal} />}
         <button
           type="button"
           className={theme === 'light' ? css.themeButtonLight : css.themeButtonDark}
