@@ -34,7 +34,7 @@ export default function Skills() {
           className={css.skillsLink}
           href="https://drive.google.com/file/d/1LfzXFzsvRGp94j1bGsG-2lE2fdAWn9fC/view?usp=sharing"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
         >
           Go to my CV
         </a>
@@ -44,7 +44,7 @@ export default function Skills() {
           className={css.skillsLink}
           href="https://drive.google.com/file/d/1KDjnfCKdie6Gc_Ek5IkA8n8rcJ7Wdxxe/view?usp=sharing"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
         >
           Go to my Sertificate
         </a>
