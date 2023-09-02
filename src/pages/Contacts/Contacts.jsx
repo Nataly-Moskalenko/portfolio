@@ -15,7 +15,7 @@ export default function Contacts() {
             className={css.contactsLink}
             href="https://t.me/tasha8"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
           >
             <FaTelegramPlane />
             <span>Telegram</span>
@@ -26,7 +26,7 @@ export default function Contacts() {
             className={css.contactsLink}
             href="https://www.linkedin.com/in/nataly-moskalenko/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
           >
             <FaLinkedinIn />
             <span>LinkedIn</span>
@@ -37,7 +37,7 @@ export default function Contacts() {
             className={css.contactsLink}
             href="https://github.com/Nataly-Moskalenko"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
           >
             <FaGithub />
             <span>Github</span>
