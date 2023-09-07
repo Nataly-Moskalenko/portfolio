@@ -7,8 +7,15 @@ export default function Contacts() {
       <h1 className={css.contactsTitle}>My contacts</h1>
       <ul className={css.contactsList}>
         <li className={css.contactsItem}>
-          <FaEnvelope />
-          <span>nmoskalenko911@gmail.com</span>
+          <a
+            className={css.contactsLink}
+            href="mailto:nmoskalenko911@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <FaEnvelope />
+            <span>nmoskalenko911@gmail.com</span>
+          </a>
         </li>
         <li className={css.contactsItem}>
           <a

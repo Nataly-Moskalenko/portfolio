@@ -15,7 +15,16 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  transition: all 100ms linear; 
 }
+
+.contactsLink:hover,
+.contactsLink:focus {
+  text-decoration:underline;
+  font-weight: 700;  
+}
+
 
 .contactsTitle {
   margin-bottom: 60px;

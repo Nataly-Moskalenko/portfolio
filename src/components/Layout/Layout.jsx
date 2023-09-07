@@ -41,11 +41,12 @@ export default function Layout() {
           type="button"
           className={theme === 'light' ? css.themeButtonLight : css.themeButtonDark}
           onClick={checkTheme}
+          aria-label="Button theme switcher"
         >
           {theme === 'light' ? (
-            <FaSun className={css.themeIcon} title="Light Theme" />
+            <FaSun className={css.themeIcon} />
           ) : (
-            <FaMoon className={css.themeIcon} title="Dark Theme" />
+            <FaMoon className={css.themeIcon} />
           )}
         </button>
       </div>

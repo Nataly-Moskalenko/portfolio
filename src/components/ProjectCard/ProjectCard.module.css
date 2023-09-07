@@ -20,6 +20,14 @@
   font-size: 16px;
   line-height: 20px;
   color: #3b06cf;
+  text-decoration: none;
+  transition: all 100ms linear;
+}
+
+.projectLink:hover,
+.projectLink:focus {
+  text-decoration: underline;
+  font-weight: 800;
 }
 
 @media screen and (min-width: 1080px) {
@@ -35,11 +43,11 @@
     height: 150px;
     margin: 0 auto;
   }
-  
+
   .projectDescription {
     margin-bottom: 40px;
   }
-  
+
   .projectLink {
     font-weight: 700;
     font-size: 20px;

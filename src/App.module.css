@@ -1,11 +1,13 @@
 .dark {
   height: 100vh;
-  background-color: rgb(12, 7, 33); 
-  color: #3b06cf;   
+  color: #3b06cf;
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
 }
 
 .light {
   height: 100vh;
-  background-color: rgb(229, 249, 252); 
-  color: rgb(59, 6, 207);  
+  color: rgb(59, 6, 207);
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
 }

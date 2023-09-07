@@ -1,9 +1,9 @@
 .header {
   display: flex;
   justify-content: space-around;
-  align-items: baseline;  
+  align-items: baseline;
   margin: 0 20px;
-  padding: 20px;  
+  padding: 20px;
   border-bottom: 2px solid #3b06cf;
 }
 
@@ -19,6 +19,13 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  transition: transform 100ms linear;
+  cursor: pointer;
+}
+
+.menuButton:hover {
+  transform: scale(1.1);
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,9 +37,9 @@
   .menuButton {
     display: none;
   }
-  .header {   
+  .header {
     justify-content: center;
-    gap: 80px;    
+    gap: 80px;
   }
 }
 
@@ -52,6 +59,11 @@
   line-height: 24px;
   text-transform: uppercase;
   color: #3b06cf;
+  transition: transform 100ms linear;
+}
+
+.link:hover {
+  transform: scale(1.1);
 }
 
 .loader {
@@ -82,21 +94,28 @@
 }
 
 .themeButtonLight {
-  background-color: rgb(229, 249, 252);
+  background-color: transparent;
   color: #3b06cf;
   outline: none;
   border: none;
   cursor: pointer;
   align-self: center;
+  transition: transform 300ms ease-out;
 }
 
 .themeButtonDark {
-  background-color: rgb(12, 7, 33);
+  background-color: transparent;
   color: #3b06cf;
   outline: none;
   border: none;
   cursor: pointer;
   align-self: center;
+  transition: transform 300ms ease-out;
+}
+
+.themeButtonDark:hover,
+.themeButtonLight:hover {
+  transform: scale(1.2);
 }
 
 .themeIcon {
