@@ -11,7 +11,8 @@
   margin: 0 auto;
 }
 
-.skillsTitle {
+.skillsTechTitle,
+.skillsSoftTitle {
   margin-bottom: 20px;
 }
 
@@ -55,7 +56,8 @@
     margin: 0 auto;
   }
 
-  .skillsTitle {
+  .skillsTechTitle,
+  .skillsSoftTitle {
     margin-bottom: 40px;
   }
 
@@ -75,3 +77,91 @@
     margin-bottom: 20px;
   }
 }
+
+.skillsTechTitle {
+  animation: techTitleAppear 2s linear;
+}
+
+.skillsTech {
+  animation: techAppear 2s linear;
+}
+
+.skillsSoftTitle {
+  animation: softTitleAppear 2s linear;
+}
+
+.skillsSoft {
+  animation: softAppear 2s linear;
+}
+
+.skillsDescr {
+  animation: descrAppear 2s linear;
+}
+
+@keyframes techTitleAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes techAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes softTitleAppear {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes softAppear {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes descrAppear {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  } 
+  100% {
+    opacity: 1;
+  }
+}
+

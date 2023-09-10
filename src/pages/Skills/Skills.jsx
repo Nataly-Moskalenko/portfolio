@@ -5,8 +5,8 @@ export default function Skills() {
     <div className={css.skills}>
       <div className={css.skillsDescription}>
         <div>
-          <h1 className={css.skillsTitle}>Tech Skills</h1>
-          <ul>
+          <h1 className={css.skillsTechTitle}>Tech Skills</h1>
+          <ul className={css.skillsTech}>
             <li className={css.skillsItem}>HTML</li>
             <li className={css.skillsItem}>CSS/SASS/BEM</li>
             <li className={css.skillsItem}>Responsive/Adaptive Design</li>            
@@ -19,8 +19,8 @@ export default function Skills() {
           </ul>
         </div>
         <div>
-          <h1 className={css.skillsTitle}>Soft Skills</h1>
-          <ul>
+          <h1 className={css.skillsSoftTitle}>Soft Skills</h1>
+          <ul className={css.skillsSoft}>
             <li className={css.skillsItem}>Team work</li>
             <li className={css.skillsItem}>Communication</li>
             <li className={css.skillsItem}>Time management</li>
@@ -39,7 +39,7 @@ export default function Skills() {
           Go to my CV
         </a>
       </div>
-      <div>
+      <div className={css.skillsDescr}>
         <a
           className={css.skillsLink}
           href="https://drive.google.com/file/d/1KDjnfCKdie6Gc_Ek5IkA8n8rcJ7Wdxxe/view?usp=sharing"

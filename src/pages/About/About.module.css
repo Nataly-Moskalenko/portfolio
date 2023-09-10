@@ -18,7 +18,7 @@
 }
 
 .aboutTitle {
-  margin-bottom: 40px;  
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 440px) {
@@ -50,5 +50,92 @@
     gap: 80px;
     justify-content: center;
     max-width: 800px;
+  }
+}
+
+.aboutTitle {
+  animation: titleAppear 2s linear;
+}
+
+.aboutText {
+  animation: textAppear 2s linear;
+}
+
+.aboutSubtext {
+  animation: subtextAppear 2s linear;
+}
+
+.aboutDesc {
+  animation: descAppear 2s linear;
+}
+
+.aboutDescr {
+  animation: descrAppear 2s linear;
+}
+
+@keyframes titleAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes subtextAppear {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes descAppear {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes descrAppear {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  } 
+  100% {
+    opacity: 1;
   }
 }

@@ -8,7 +8,7 @@ export default function Contacts() {
       <ul className={css.contactsList}>
         <li className={css.contactsItem}>
           <a
-            className={css.contactsLink}
+            className={css.contactsMail}
             href="mailto:nmoskalenko911@gmail.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -19,7 +19,7 @@ export default function Contacts() {
         </li>
         <li className={css.contactsItem}>
           <a
-            className={css.contactsLink}
+            className={css.contactsTelegram}
             href="https://t.me/tasha8"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -30,7 +30,7 @@ export default function Contacts() {
         </li>
         <li className={css.contactsItem}>
           <a
-            className={css.contactsLink}
+            className={css.contactsLinkedin}
             href="https://www.linkedin.com/in/nataly-moskalenko/"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -41,7 +41,7 @@ export default function Contacts() {
         </li>
         <li className={css.contactsItem}>
           <a
-            className={css.contactsLink}
+            className={css.contactsGit}
             href="https://github.com/Nataly-Moskalenko"
             target="_blank"
             rel="noopener noreferrer nofollow"

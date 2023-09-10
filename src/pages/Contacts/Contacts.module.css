@@ -7,7 +7,10 @@
   line-height: 20px;
 }
 
-.contactsLink {
+.contactsMail,
+.contactsTelegram,
+.contactsLinkedin,
+.contactsGit {
   display: flex;
   gap: 12px;
   align-items: flex-end;
@@ -16,15 +19,20 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  transition: all 100ms linear; 
+  transition: all 100ms linear;
 }
 
-.contactsLink:hover,
-.contactsLink:focus {
-  text-decoration:underline;
-  font-weight: 700;  
+.contactsMail:hover,
+.contactsTelegram:hover,
+.contactsLinkedin:hover,
+.contactsGit:hover,
+.contactsMail:focus,
+.contactsTelegram:focus,
+.contactsLinkedin:focus,
+.contactsGit:focus {
+  text-decoration: underline;
+  font-weight: 700;
 }
-
 
 .contactsTitle {
   margin-bottom: 60px;
@@ -46,8 +54,98 @@
 
 @media screen and (min-width: 440px) {
   .contacts,
-  .contactsLink {
+  .contactsMail,
+  .contactsTelegram,
+  .contactsLinkedin,
+  .contactsGit {
     font-size: 20px;
     line-height: 24px;
+  }
+}
+
+.contactsTitle {
+  animation: titleAppear 2s linear;
+}
+
+.contactsMail {
+  animation: mailAppear 2s linear;
+}
+
+.contactsTelegram {
+  animation: telegramAppear 2s linear;
+}
+
+.contactsLinkedin {
+  animation: linkedinAppear 2s linear;
+}
+
+.contactsGit {
+  animation: gitAppear 2s linear;
+}
+
+@keyframes titleAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mailAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes telegramAppear {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes linkedinAppear {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes gitAppear {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
