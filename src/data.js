@@ -8,6 +8,7 @@ import photoTweets from './images/photo_TweetCards.jpg';
 import photoNews from './images/photo_News.jpg';
 import photoTaskPro from './images/photo_TaskPro.jpg';
 import photoCarpTravel from './images/photo_CarpTravel.jpg';
+import photoIMConsulting from './images/photo_IM_CONSULTING.jpg';
 
 export const projects = [
   {
@@ -101,5 +102,15 @@ export const projects = [
       'Individual project which offers you unforgettable and extraordinary trips to the most beautiful parts of the Carpathians: Hoverla, Yaremche, Zakarpattia, Vorokhta, Synevyr Lake, Bukovel.',
     image: photoCarpTravel,
     link: 'https://carpathians-travel.vercel.app/',
+  },
+  {
+    id: '11',
+    title: 'IM-CONSULTING',
+    subtitle:
+      'React, React-dom, Nextjs, React-scroll, React-hook-form, Swiper, Tailwindcss, yup, nodemailer, @headlessui/react',
+    description:
+      'A business card site for creating a personal brand and attracting new customers and partners. The client of the project: Ilya Mushkovskyi, business trainer, top consultant, anti-crisis manager, coach.',
+    image: photoIMConsulting,
+    link: 'https://im-consulting.vercel.app/',
   },
 ];
